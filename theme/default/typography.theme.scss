@@ -1,0 +1,44 @@
+@import './typography-mixins.theme';
+
+h1,
+.theme-h1 {
+  @include h1-mixin;
+}
+
+h2,
+.theme-h2 {
+  @include h2-mixin;
+}
+
+h3,
+.theme-h3 {
+  @include h3-mixin;
+}
+
+h4,
+.theme-h4 {
+  @include h4-mixin;
+}
+
+h5,
+.theme-h5 {
+  @include h5-mixin;
+}
+
+h6,
+.theme-h6 {
+  @include h6-mixin;
+}
+
+p,
+.theme-body {
+  @include body-mixin;
+}
+
+.theme-button {
+  @include button-mixin;
+}
+
+.theme-caption {
+  @include caption-mixin;
+}

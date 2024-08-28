@@ -1,0 +1,33 @@
+@import './tokens.theme';
+
+.bg-error {
+  background-color: $color-feedback-error;
+}
+
+.bg-primary {
+  background-color: $color-primary;
+}
+
+.bg-secondary {
+  background-color: $color-secondary;
+}
+
+.bg-success {
+  background-color: $color-feedback-success;
+}
+
+.bg-tertiary {
+  background-color: $color-tertiary;
+}
+
+.bg-warning {
+  background-color: $color-feedback-warning;
+}
+
+.text-white {
+  color: $color-neutral-white;
+}
+
+.text-black {
+  color: $color-neutral-black;
+}
