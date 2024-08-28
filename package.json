@@ -1,0 +1,49 @@
+{
+  "name": "piscium-theme",
+  "version": "0.0.1",
+  "description": "Themes for Piscium Aquarium App",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prepare": "npx husky install",
+    "prettier:check": "npx prettier theme/**/*.{css,scss} --check",
+    "prettier:fix": "npx prettier theme/**/*.{css,scss} --write",
+    "release:major": "standard-version --release-as major",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "scss:compile": "npm run clean && sass --no-source-map theme:dist/css",
+    "scss:minify": "npm run clean && sass --no-source-map --style compressed theme:dist/css",
+    "stylelint:check": "stylelint theme/**/*.scss",
+    "stylelint:fix": "stylelint theme/**/*.scss --fix"
+  },
+  "keywords": [
+    "theme"
+  ],
+  "author": "José Eduardo Trindade E Marques",
+  "license": "ISC",
+  "dependencies": {
+    "piscium-theme": "file:"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cz-commitlint": "^19.2.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.7",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "sass": "^1.77.8",
+    "standard-version": "^9.5.0",
+    "stylelint": "^16.7.0",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-config-standard-scss": "^13.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
