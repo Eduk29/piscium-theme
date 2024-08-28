@@ -1,41 +1,42 @@
-@use './tokens.theme.scss' as tokens;
-
 :root {
-  --color-primary: tokens.$color-primary;
-  --color-primary-dark: tokens.$color-primary-dark;
-  --color-primary-light: tokens.$color-primary-light;
-  --color-primary-alternative: tokens.$color-primary-alternative;
-  --color-primary-alternative-dark: tokens.$color-primary-alternative-dark;
-  --color-primary-alternative-light: tokens.$color-primary-alternative-light;
-  --color-secondary: tokens.$color-secondary;
-  --color-secondary-dark: tokens.$color-secondary-dark;
-  --color-secondary-light: tokens.$color-secondary-light;
-  --color-tertiary: tokens.$color-tertiary;
-  --color-tertiary-dark: tokens.$color-tertiary-dark;
-  --color-tertiary-light: tokens.$color-tertiary-light;
-  --color-neutral-white: tokens.$color-neutral-white;
-  --color-neutral-black: tokens.$color-neutral-black;
-  --color-neutral-black-dark: tokens.$color-neutral-black-dark;
-  --color-neutral-black-light: tokens.$color-neutral-black-light;
-  --color-feedback-success: tokens.$color-feedback-success;
-  --color-feedback-success-dark: tokens.$color-feedback-success-dark;
-  --color-feedback-success-light: tokens.$color-feedback-success-light;
-  --color-feedback-warning: tokens.$color-feedback-warning;
-  --color-feedback-warning-dark: tokens.$color-feedback-warning-dark;
-  --color-feedback-warning-light: tokens.$color-feedback-warning-light;
-  --color-feedback-error: tokens.$color-feedback-error;
-  --color-feedback-error-dark: tokens.$color-feedback-error-dark;
-  --color-feedback-error-light: tokens.$color-feedback-error-light;
-  --color-data-teal: tokens.$color-data-teal;
-  --color-data-teal-dark: tokens.$color-data-teal-dark;
-  --color-data-teal-light: tokens.$color-data-teal-light;
-  --color-data-sapphire: tokens.$color-data-sapphire;
-  --color-data-sapphire-dark: tokens.$color-data-sapphire-dark;
-  --color-data-sapphire-light: tokens.$color-data-sapphire-light;
-  --color-data-yellow: tokens.$color-data-yellow;
-  --color-data-yellow-dark: tokens.$color-data-yellow-dark;
-  --color-data-yellow-light: tokens.$color-data-yellow-light;
-  --color-data-lime: tokens.$color-data-lime;
-  --color-data-lime-dark: tokens.$color-data-lime-dark;
-  --color-data-lime-light: tokens.$color-data-lime-light;
+  --color-primary: #2196f3;
+  --color-primary-dark: #0d47a1;
+  --color-primary-light: #bbdefb;
+
+  --color-primary-alternative: #1e88e5;
+  --color-primary-alternative-dark: #2962ff;
+  --color-primary-alternative-light: #82b1ff;
+
+  --color-secondary: #3f51b5;
+  --color-secondary-dark: #1a237e;
+  --color-secondary-light: #e8eaf6;
+
+  --color-secondary-alternative: #536dfe;
+  --color-secondary-alternative-dark: #304ffe;
+  --color-secondary-alternative-light: #8c9eff;
+
+  --color-tertiary: #4dd0e1;
+  --color-tertiary-dark: #006064;
+  --color-tertiary-light: #e0f7fa;
+
+  --color-tertiary-alternative: #00e5ff;
+  --color-tertiary-alternative-dark: #00b8d4;
+  --color-tertiary-alternative-light: #84ffff;
+
+  --color-neutral-white: #fff;
+  --color-neutral-black: #384553;
+  --color-neutral-black-dark: #252c34;
+  --color-neutral-black-light: #5e6976;
+
+  --color-feedback-success: #0fac67;
+  --color-feedback-success-dark: #1b7749;
+  --color-feedback-success-light: #f1fbf4;
+  
+  --color-feedback-warning: #ff9735;
+  --color-feedback-warning-dark: #be670f;
+  --color-feedback-warning-light: #fff7f0;
+  
+  --color-feedback-error: #fa1320;
+  --color-feedback-error-dark: #d0141a;
+  --color-feedback-error-light: #fff6f3;
 }

@@ -1,22 +1,32 @@
 // Primary color
-$color-primary: #2a5595;
-$color-primary-dark: #687db0;
-$color-primary-light: #1e437a;
+$color-primary: #2196f3;
+$color-primary-dark: #0d47a1;
+$color-primary-light: #bbdefb;
 
 // Primary alternative color
-$color-primary-alternative: #c6cbe1;
-$color-primary-alternative-dark: #f7f8fb;
-$color-primary-alternative-light: #a6afd0;
+$color-primary-alternative: #1e88e5;
+$color-primary-alternative-dark: #2962ff;
+$color-primary-alternative-light: #82b1ff;
 
 // Secondary color
-$color-secondary: #e80070;
-$color-secondary-dark: #fe5b90;
-$color-secondary-light: #a31b50;
+$color-secondary: #3f51b5;
+$color-secondary-dark: #1a237e;
+$color-secondary-light: #e8eaf6;
+
+// Secondary alternative color
+$color-secondary-alternative: #536dfe;
+$color-secondary-alternative-dark: #304ffe;
+$color-secondary-alternative-light: #8c9eff;
 
 // Tertiary color
-$color-tertiary: #77127b;
-$color-tertiary-dark: #a768a6;
-$color-tertiary-light: #4a154b;
+$color-tertiary: #4dd0e1;
+$color-tertiary-dark: #006064;
+$color-tertiary-light: #e0f7fa;
+
+// Tertiary alternative color
+$color-tertiary-alternative: #00e5ff;
+$color-tertiary-alternative-dark: #00b8d4;
+$color-tertiary-alternative-light: #84ffff;
 
 // Neutral Colors
 $color-neutral-white: #fff;
@@ -28,25 +38,11 @@ $color-neutral-black-light: #5e6976;
 $color-feedback-success: #0fac67;
 $color-feedback-success-dark: #1b7749;
 $color-feedback-success-light: #f1fbf4;
+
 $color-feedback-warning: #ff9735;
 $color-feedback-warning-dark: #be670f;
 $color-feedback-warning-light: #fff7f0;
+
 $color-feedback-error: #fa1320;
 $color-feedback-error-dark: #d0141a;
 $color-feedback-error-light: #fff6f3;
-
-// Data Colors
-$color-data-teal: #54c2b8;
-$color-data-teal-dark: #188c84;
-$color-data-teal-light: #caebe7;
-$color-data-sapphire: #3097aa;
-$color-data-sapphire-dark: #0c7092;
-$color-data-sapphire-light: #dae6ee;
-$color-data-yellow: #ffc400;
-$color-data-yellow-dark: #e57b08;
-$color-data-yellow-light: #f8efc4;
-$color-data-lime: #afb904;
-$color-data-lime-dark: #7d8314;
-$color-data-lime-light: #e9e7af;
-$color-disabled-text: #1a1b1f61;
-$color-disabled-background: #1a1b1f1f;
