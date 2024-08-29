@@ -1,33 +1,33 @@
 @import './tokens.theme';
 
 .bg-error {
-  background-color: $color-feedback-error;
+  background-color: $piscium-color-feedback-error;
 }
 
 .bg-primary {
-  background-color: $color-primary;
+  background-color: $piscium-color-primary;
 }
 
 .bg-secondary {
-  background-color: $color-secondary;
+  background-color: $piscium-color-secondary;
 }
 
 .bg-success {
-  background-color: $color-feedback-success;
+  background-color: $piscium-color-feedback-success;
 }
 
 .bg-tertiary {
-  background-color: $color-tertiary;
+  background-color: $piscium-color-tertiary;
 }
 
 .bg-warning {
-  background-color: $color-feedback-warning;
+  background-color: $piscium-color-feedback-warning;
 }
 
 .text-white {
-  color: $color-neutral-white;
+  color: $piscium-color-neutral-white;
 }
 
 .text-black {
-  color: $color-neutral-black;
+  color: $piscium-color-neutral-black;
 }

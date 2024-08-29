@@ -22,7 +22,7 @@
   "author": "José Eduardo Trindade E Marques",
   "license": "ISC",
   "dependencies": {
-    "piscium-theme": "file:"
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
