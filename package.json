@@ -12,7 +12,8 @@
     "release:minor": "standard-version --release-as minor",
     "release:patch": "standard-version --release-as patch",
     "scss:compile": "npm run clean && sass --no-source-map theme:dist/css",
-    "scss:minify": "npm run clean && sass --no-source-map --style compressed theme:dist/css",
+    "scss:minify": "npm run clean && sass --no-source-map --style compressed theme:dist/css && npm run scss:remove-comments",
+    "scss:remove-comments": "npx stripcomments -w --confirm-overwrite ./dist/css/piscium-base.theme.css",
     "stylelint:check": "stylelint theme/**/*.scss",
     "stylelint:fix": "stylelint theme/**/*.scss --fix"
   },
@@ -28,6 +29,7 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@commitlint/cz-commitlint": "^19.2.0",
+    "@prasadrajandran/strip-comments-cli": "^1.0.0-beta.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^9.1.5",
