@@ -1,6 +1,6 @@
 {
   "name": "piscium-theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Themes for Piscium Aquarium App",
   "main": "index.js",
   "scripts": {
