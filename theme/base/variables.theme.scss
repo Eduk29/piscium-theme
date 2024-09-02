@@ -1,44 +1,44 @@
 :root {
-  --piscium-color-primary: rgba(33, 150, 243, 1);
-  --piscium-color-primary-dark: rgba(13, 71, 161, 1);
-  --piscium-color-primary-light: rgba(187, 222, 251, 1);
+  --piscium-color-primary: #2196f3;
+  --piscium-color-primary-dark: #0d47a1;
+  --piscium-color-primary-light: #bbdefb;
 
-  --piscium-color-primary-alternative: rgba(30, 136, 229, 1);
-  --piscium-color-primary-alternative-dark: rgba(41, 98, 255, 1);
-  --piscium-color-primary-alternative-light: rgba(130, 177, 255, 1);
+  --piscium-color-primary-alternative: #1e88e5;
+  --piscium-color-primary-alternative-dark: #2962ff;
+  --piscium-color-primary-alternative-light: #82b1ff;
 
-  --piscium-color-secondary: rgba(63, 81, 181, 1);
-  --piscium-color-secondary-dark: rgba(26, 35, 126, 1);
-  --piscium-color-secondary-light: rgba(232, 234, 246, 1);
+  --piscium-color-secondary: #3f51b5;
+  --piscium-color-secondary-dark: #1a237e;
+  --piscium-color-secondary-light: #e8eaf6;
 
-  --piscium-color-secondary-alternative: rgba(83, 109, 254, 1);
-  --piscium-color-secondary-alternative-dark: rgba(48, 79, 254, 1);
-  --piscium-color-secondary-alternative-light: rgba(140, 158, 255, 1);
+  --piscium-color-secondary-alternative: #536dfe;
+  --piscium-color-secondary-alternative-dark: #304ffe;
+  --piscium-color-secondary-alternative-light: #8c9eff;
 
-  --piscium-color-tertiary: rgba(77, 208, 225, 1);
-  --piscium-color-tertiary-dark: rgba(0, 96, 100, 1);
-  --piscium-color-tertiary-light: rgba(224, 247, 250, 1);
+  --piscium-color-tertiary: #4dd0e1;
+  --piscium-color-tertiary-dark: #006064;
+  --piscium-color-tertiary-light: #e0f7fa;
 
-  --piscium-color-tertiary-alternative: rgba(0, 229, 255, 1);
-  --piscium-color-tertiary-alternative-dark: rgba(0, 184, 212, 1);
-  --piscium-color-tertiary-alternative-light: rgba(132, 255, 255, 1);
+  --piscium-color-tertiary-alternative: #00e5ff;
+  --piscium-color-tertiary-alternative-dark: #00b8d4;
+  --piscium-color-tertiary-alternative-light: #84ffff;
 
-  --piscium-color-neutral-white: rgba(255, 255, 255, 1);
-  --piscium-color-neutral-black: rgba(56, 69, 83, 1);
-  --piscium-color-neutral-black-dark: rgba(37, 44, 52, 1);
-  --piscium-color-neutral-black-light: rgba(94, 105, 118, 1);
-  --piscium-color-disabled-text: rgba(26, 27, 31, 0.38);
-  --piscium-color-disabled-background: rgba(26, 27, 31, 0.12);
+  --piscium-color-neutral-white: #fff;
+  --piscium-color-neutral-black: #384553;
+  --piscium-color-neutral-black-dark: #252c34;
+  --piscium-color-neutral-black-light: #5e6976;
+  --piscium-color-disabled-text: #1a1b1f61;
+  --piscium-color-disabled-background: #1a1b1f1f;
 
-  --piscium-color-feedback-success: rgba(15, 172, 103, 1);
-  --piscium-color-feedback-success-dark: rgba(27, 119, 73, 1);
-  --piscium-color-feedback-success-light: rgba(241, 251, 244, 1);
+  --piscium-color-feedback-success: #0fac67;
+  --piscium-color-feedback-success-dark: #1b7749;
+  --piscium-color-feedback-success-light: #f1fbf4;
 
-  --piscium-color-feedback-warning: rgba(255, 151, 53, 1);
-  --piscium-color-feedback-warning-dark: rgba(190, 103, 15, 1);
-  --piscium-color-feedback-warning-light: rgba(255, 247, 240, 1);
+  --piscium-color-feedback-warning: #ff9735;
+  --piscium-color-feedback-warning-dark: #be670f;
+  --piscium-color-feedback-warning-light: ff7f0;
 
-  --piscium-color-feedback-error: rgba(250, 19, 32, 1);
-  --piscium-color-feedback-error-dark: rgba(208, 20, 26, 1);
-  --piscium-color-feedback-error-light: rgba(255, 246, 243, 1);
+  --piscium-color-feedback-error: #fa1320;
+  --piscium-color-feedback-error-dark: #d0141a;
+  --piscium-color-feedback-error-light: #fff6f3;
 }
