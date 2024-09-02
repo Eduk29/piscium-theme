@@ -22,7 +22,7 @@
   ],
   "author": "José Eduardo Trindade E Marques",
   "license": "ISC",
-  "dependencies": {
+  "peerDependencies": {
     "bootstrap": "^5.3.3"
   },
   "devDependencies": {
