@@ -1,6 +1,6 @@
 @import './base/typography-mixins.theme';
 
-.typograhy {
+.typography {
   > h1,
   > .theme-h1 {
     @include h1-mixin;
