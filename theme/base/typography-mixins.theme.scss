@@ -64,8 +64,8 @@
   @include font-weight-medium-mixin;
 
   font-style: normal;
-  font-size: 30px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 @mixin body-mixin {
@@ -75,6 +75,33 @@
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
+}
+
+@mixin body-bold-mixin {
+  @include font-family-mixin;
+  @include font-weight-bold-mixin;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@mixin body-2-mixin {
+  @include font-family-mixin;
+  @include font-weight-medium-mixin;
+
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@mixin body-2-bold-mixin {
+  @include font-family-mixin;
+  @include font-weight-bold-mixin;
+
+  font-style: normal;
+  font-size: 12px;
+  line-height: 168px;
 }
 
 @mixin button-mixin {

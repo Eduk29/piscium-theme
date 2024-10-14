@@ -36,6 +36,21 @@
     @include body-mixin;
   }
 
+  > p,
+  > .theme-body-bold {
+    @include body-bold-mixin;
+  }
+
+  > p,
+  > .theme-body-2 {
+    @include body-2-mixin;
+  }
+
+  > p,
+  > .theme-body-2-bold {
+    @include body-2-bold-mixin;
+  }
+
   > .theme-button {
     @include button-mixin;
   }
